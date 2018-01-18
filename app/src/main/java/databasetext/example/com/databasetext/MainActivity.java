@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button litedebt= (Button) findViewById(R.id.litedebt);
         Button liteupbt= (Button) findViewById(R.id.liteupbt);
         Button literebt= (Button) findViewById(R.id.literebt);
-        Log.d("ee","woshi ");
+        
         dbHelper = new MyDatabaseHelper(this,"BookStore.db",null,1);
         bt.setOnClickListener(this);
         addbt.setOnClickListener(this);
