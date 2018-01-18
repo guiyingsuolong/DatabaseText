@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="BBookStore" ></dbname>
+    <version  value="2"></version>
+    <list>
+     <mapping class="databasetext.example.com.databasetext.Book"></mapping>
+     <mapping class="databasetext.example.com.databasetext.Category"></mapping>
+    </list>
+</litepal>
